@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
+    /**
+     * Este es el cambio para el develop
+     * @author Dfernandez
+     * @return
+     */
     @RequestMapping(value = "/")
     public String getHomePage() {
         return "Hola";
